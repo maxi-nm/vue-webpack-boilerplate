@@ -1,0 +1,18 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false // is set to false for webpack to handle module bundling for us
+      }
+    ], "@babel/preset-typescript"
+  ],
+  "plugins": [
+    "@babel/proposal-class-properties",
+    "@babel/proposal-object-rest-spread",
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-transform-arrow-functions",
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-transform-typescript"
+  ]
+}
